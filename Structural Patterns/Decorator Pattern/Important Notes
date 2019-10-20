@@ -1,0 +1,15 @@
+> Decorator pattern allows a user to add new functionality to an existing object without altering its structure. This type of design pattern comes under structural     pattern as this pattern acts as a wrapper to existing class.
+
+> This pattern creates a decorator class which wraps the original class and provides additional functionality keeping class methods signature intact.
+
+> We are demonstrating the use of decorator pattern via following example in which we will decorate a shape with some color without alter shape class.
+
+> Allow you to modify object dynamicall
+
+> You would use it when you want the capabilities of inheritance with subclasses, but you need to add functionality at runtime
+
+> It is more flexible than inheritance
+
+> Simplifies code because you add functionality using many simple classes 
+
+> Rather than rewrite old code you can extend with new  code 

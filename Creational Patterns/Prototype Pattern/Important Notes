@@ -1,0 +1,11 @@
+> Prototype pattern refers to creating duplicate object while keeping performance in mind. This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
+
+> This pattern involves implementing a prototype interface which tells to create a clone of the current object. This pattern is used when creation of object directly is costly. For example, an object is to be created after a costly database operation. We can cache the object, returns its clone on next request and update the database as and when needed thus reducing database calls.
+
+> Create new objects (instances) by cloning (copying) other objects.
+
+> Allow for adding of any subclass instance of a known superclass at runtime.
+
+> When there are numerous potential classes that you want to only use if needed at runtime.
+
+> Reduces the need for creating subclass.

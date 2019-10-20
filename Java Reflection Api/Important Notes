@@ -1,0 +1,9 @@
+> It is a class manipulator
+
+> Used to manipulate classes and everything in the class
+
+> Can't be used with applets 
+
+> Should be used sparingly
+
+> Can slow down program because the JVM can't optimize the codes

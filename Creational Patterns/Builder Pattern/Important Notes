@@ -1,0 +1,9 @@
+> Builder pattern builds a complex object using simple objects and using a step by step approach. This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
+
+> A Builder class builds the final object step by step. This builder is independent of other objects.
+
+> Used to create object made from a brunch of objects
+    -> When you want to build an object made up from other objects
+    -> When you want the creation of these parts to be independent of the main object
+    -> Hide the creation of part from the client so they are not dependent
+    -> The builder knows the specifics and nobody else 

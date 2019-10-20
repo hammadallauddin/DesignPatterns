@@ -1,0 +1,46 @@
+> Class -> It is a blueprint.
+
+> Inheritence -> What do classes have in common. Abstract out those features. Override or extends those feature that dont work. 
+                 Fields and methods are already defined you only define changes.
+
+> Encapsulation -> Protect all of our data.
+
+> Instance Variable -> They are declared in the class.
+
+> Local Variable -> They are declared in method.
+
+> Is A -> Help you to decide if a class should extend another -> "Dog is an Animal".
+
+> Has A -> Help you to decide if something is a field ->  "Dog has a Height".
+
+> When to use inheritence? 
+    -> Avoid duplicate code.
+    -> Changes to super class instantly reflected to subclass.                         
+    -> The Subclass is a Superclass -> "Dog is an Animal".
+    -> When subclass needs most of the methods of superclass.
+
+> When you pass object to method it is passed as reference so if we do changes in object inside function it reflect that change outside method.
+
+> Polymorphism 
+    -> Polymorphism is the ability of an object to take on many forms. 
+    -> The most common use of polymorphism in OOP occurs when a parent class reference is used to refer to a child class object
+    -> Allow you to write methods that dont need to change if subclasses are created.
+    -> You can also override any super class function in subclass without effecting it in superclass.
+
+> You cannot use non-static field inside static function. 
+
+> You cannot call non-static method inside static method.
+
+> Abstract Class 
+    -> If you want power of polymorphism without the work.
+    -> Abstract public class ClassName.
+    -> Public abstract void functionName.
+    -> There is no abstract field.
+    -> All methods does not have to be abstract
+    -> You can have static method
+    -> You cannot create an object from abstract class
+
+> Interace 
+    -> Only have abstract method.
+    -> Implement as many interface as you want inside a class.
+    -> You can use public static and final fields.

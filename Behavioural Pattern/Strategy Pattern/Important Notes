@@ -1,0 +1,22 @@
+> In Strategy pattern, a class behavior or its algorithm can be changed at run time. This type of design pattern comes under behavior pattern.
+
+> In Strategy pattern, we create objects which represent various strategies and a context object whose behavior varies as per its strategy object. The strategy object changes the executing algorithm of the context object.
+
+> Always eleminate duplicate codes.
+
+> Define family of algorithms, encapsulate each one and make them interchangeable.
+
+> The Strategy pattern lets the algorithm vary independently from client that use it.  
+
+> When to use it 
+    -> When you need to use one of several behaviour dynamically.
+    -> When you want to define a class that will have one behaviour that is similar to other behaviours in a list.
+
+> Pros
+    -> Often reduce long list of conditionals.
+    -> Avoid duplicate code.
+    -> Keep class changes from forcing other class changes.
+    -> Can hide complicated / secret code from user.
+
+> Cons
+    -> Increased numbers of Objects / Classes

@@ -1,0 +1,19 @@
+> Observer pattern is used when there is one-to-many relationship between objects such as if one object is modified, its depenedent objects are to be notified automatically. Observer pattern falls under behavioral pattern category.
+
+
+> The Observer pattern is a Software design pattern in which an object, called the subject, maintains the list of its dependents, called observers, and 
+  notifies them automatically of any state changes, usually by calling one of their method.
+
+> When to use it?
+    -> When you need many other objects to receive an update when another object change.
+    -> Stock market with thausand of stock need to send updates to individual objects representing individual stocks
+    -> The Subject (publisher) sends many stocks to the Observer.
+    -> The Observer (subscriber) takes the ones they want and use them.
+
+> Pros
+    -> Loose coupling is a benefit.
+    -> The subject (publisher) doesnot need to know anything about the Observer (subscriber).
+
+> Cons
+    -> The subject (publisher) may send update that dont matter to the Observer (subscriber).
+

@@ -1,0 +1,14 @@
+> Factory pattern is one of the most used design patterns in Java. This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
+
+> In Factory pattern, we create object without exposing the creation logic to the client and refer to newly created object using a common interface.
+
+> Factory Pattern allows us to create objects without specifying the exact class of the object that will be created
+
+> When method returns one of several possible classes that share a common super class
+
+> when to use it?
+    -> When you dont know ahead of time what class object you need.
+    -> When all otential classes are in same subclass hierarchy.
+    -> To Centralized class selection code.
+    -> When you dont want the user to have to know every subclass
+    -> To encapsulate the object creation.  
