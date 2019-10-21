@@ -1,0 +1,21 @@
+> Command pattern is a data driven design pattern and falls under behavioral pattern category. 
+
+> A request is wrapped under an object as command and passed to invoker object. 
+
+> Invoker object looks for the appropriate object which can handle this command and passes the command to the corresponding object which executes the command.
+
+> Allows you to store list of codes that is executed at a later time or many times
+
+> Client says I want a specific command to run with execute() is called on 1 of those encapsulated (hidden) object.
+
+> An object called the invoker transfer this command to another object called a reveiver to execute the right code
+
+> Allow you to set aside a list of classes for later use
+
+> A class is a greater place to store procedures you want to be executed
+
+> You can store multiple commands in a class to use over and over
+
+> You can implement undo procedures for past commands
+
+> You create many small classes that store list of commands
