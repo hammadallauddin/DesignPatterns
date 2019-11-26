@@ -1,0 +1,11 @@
+> A way to store previous state of an object easily.
+
+> Memento: The basic object that is stored in different states.
+
+> Originator: Sets and gets values form the currently targeted Memento. Creates a new memento and assigns current values to them.
+
+> Caretaker: Holds an ArrayList that contains all previous versions of the memento. It can store and retrieve memento.
+
+> Memento pattern is used to restore state of an object to a previous state. 
+
+> Memento pattern falls under behavioral pattern category.
